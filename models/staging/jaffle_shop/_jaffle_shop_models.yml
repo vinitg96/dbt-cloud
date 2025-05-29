@@ -3,3 +3,6 @@ models:
   - name: stg_jaffle_shop_customers
     config:
       materialized: view
+  - name: stg_jaffle_shop_orders
+    config:
+      materialized: view
